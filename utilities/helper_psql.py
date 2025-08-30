@@ -6,6 +6,7 @@ def init_logger():
     logging.basicConfig( level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
     logging.info("Start of Program And Logger initialized.")
 
+# Test PostgreSQL connection
 def psql_connection_test():
     """Connect to the PostgreSQL database server"""
     conn = None
@@ -36,9 +37,18 @@ def psql_connection_test():
             conn.close()
             logging.info('Database connection closed.')
             
-
+# creating the connection
 def psql_connection():
-    pass
+    """Connect to the PostgreSQL database server"""
+    conn = None
+    try:
+        # connect to the PostgreSQL server
+        logging.info("Connecting to the PostgreSQL database...")
+        conn = psycopg2.connect(host="localhost", database="MyFirstETLPipelineDB", user ="postgres", password="postgres")
+        return conn
+    except(Exception, psycopg2.DatabaseError) as error:
+        logging.error(error)
+
 
 def create_table(psql_conn):
     pass
