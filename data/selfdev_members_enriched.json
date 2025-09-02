@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Long",
+    "discord_id": "123456789",
+    "coding_motivation": "Learn and grow",
+    "addiction": "Coding"
+  },
+  {
+    "name": "Leo",
+    "discord_id": "987654321",
+    "coding_motivation": "Build cool stuff",
+    "addiction": "Coffee"
+  },
+  {
+    "name": "Alex",
+    "discord_id": "192837465",
+    "coding_motivation": "Solve problems",
+    "addiction": "Debugging"
+  },
+  {
+    "name": "Sam",
+    "discord_id": "564738291",
+    "coding_motivation": "Create impact",
+    "addiction": "Learning new languages"
+  },
+  {
+    "name": "Jamie",
+    "discord_id": "102938475",
+    "coding_motivation": "Innovate",
+    "addiction": "Open source"
+  },
+  {
+    "name": "Taylor",
+    "discord_id": "675849302",
+    "coding_motivation": "Build communities",
+    "addiction": "Hackathons"
+  },
+  {
+    "name": "Morgan",
+    "discord_id": "564738291",
+    "coding_motivation": "Make a difference",
+    "addiction": "Tech blogs"
+  },
+  {
+    "name": "Casey",
+    "discord_id": "847362514",
+    "coding_motivation": "Continuous learning",
+    "addiction": "Podcasts"
+  },
+  {
+    "name": "Riley",
+    "discord_id": "293847561",
+    "coding_motivation": "Creative expression",
+    "addiction": "Gaming"
+  },
+  {
+    "name": "Jordan",
+    "discord_id": "918273645",
+    "coding_motivation": "Career growth",
+    "addiction": "Tech meetups"
+  }
+]
